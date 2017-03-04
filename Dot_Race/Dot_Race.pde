@@ -12,6 +12,9 @@ void draw() {
  if(mousePressed){
  B = B+1;
  }
+ if(B>700){
+ text("YOU WON",400,10);
+ }
   //5. ... change the X co-ordinate so that the dot moves to the right
     
   //2. Draw an ellipse of height and width 100. Make sure to use your variable for the X position.
