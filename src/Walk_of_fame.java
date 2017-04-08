@@ -19,7 +19,7 @@ public class Walk_of_fame {
 		// 3. Set the size of the star to 30.
 		for (int i = 0; i < 10; i++) {
 			
-		
+			Tortoise.setAngle(90);	
 		star(30);
 Tortoise.setAngle(90);
 Tortoise.penUp();
