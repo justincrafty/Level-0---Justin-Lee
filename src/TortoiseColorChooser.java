@@ -30,6 +30,17 @@ public class TortoiseColorChooser {
 			if (bob.equalsIgnoreCase("black")) {
 				Tortoise.setPenColor(Color.black);
 			}
+			if (bob.equalsIgnoreCase("yellow")) {
+				Tortoise.setPenColor(Color.yellow);
+			}
+			if (bob.equalsIgnoreCase("gray")) {
+				Tortoise.setPenColor(Color.gray);
+			}
+			if (bob.equalsIgnoreCase("orange")) {
+				Tortoise.setPenColor(Color.orange);
+			}if (bob.equalsIgnoreCase("cyan")) {
+				Tortoise.setPenColor(Color.cyan);
+			}
 			if (bob.equals("")) {
 				Tortoise.setPenColor(Colors.getRandomColor());
 			}
